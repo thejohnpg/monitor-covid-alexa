@@ -1,0 +1,38 @@
+{
+  "manifest": {
+    "privacyAndCompliance": {
+      "locales": {
+        "pt-BR": {}
+      },
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    },
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "name": "Monitor de Covid 19",
+          "summary": "Dados sobre corona vírus no Brasil",
+          "description": "Essa skill irá informar qual número de infectados por Corona Vírus nas ultimas 24 horas, segundo o Ministério da Saúde",
+          "examplePhrases": ["Alexa, fale sobre o corona virus", "Alexa, monitor de covid" ,"Alexa quantas pessoas foram infectadas por corona virus, ", "Alexa, abrir monitor de covid", "Alexa abra o monitor de covid", "Alexa, abre os dados sobre covid"],
+          "keywords": ["corona virus", "covid", "covid 19", "monitor de covid", "monitor de corona virus"]
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Just say: \"Alexa, monitor de covid\"",
+      "category": "NEWS",
+      "distributionCountries": ["BR"]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda",
+          "uri": "ask-custom-vagas-react-default"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
